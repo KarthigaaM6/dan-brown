@@ -15,18 +15,18 @@ export default class App extends Component {
     return (
       <HashRouter>
         <div style={{ padding: '16px' }}>
-          <nav class="navbar navbar-default">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <a class="navbar-brand" href="#">Dan Brown</a>
+          <nav className="navbar navbar-default">
+            <div className="container-fluid">
+              <div className="navbar-header">
+                <a className="navbar-brand" href="#">Dan Brown</a>
               </div>
-              <ul class="nav navbar-nav">
+              <ul className="nav navbar-nav">
                 <li className={ activeItem === 'home' ? 'active' : '' }
-                  onClick={() => this.setState({ activeItem: 'home '})}>
+                  onClick={() => this.setState({ activeItem: 'home'})}>
                   <Link to="/">Home</Link>
                 </li>
                 <li className={ activeItem === 'books' ? 'active' : '' }
-                  onClick={() => this.setState({ activeItem: 'books '})}>
+                  onClick={() => this.setState({ activeItem: 'books'})}>
                   <Link to="/books">Books</Link>
                 </li>
               </ul>
