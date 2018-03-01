@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "node server/bin/www.js"
+    "start": "node server/bin/www.js",
+    "forever": "forever start server/bin/www.js"
   },
   "author": "Ramvignesh Pasupathy",
   "license": "ISC",
