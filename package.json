@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node server/bin/www.js"
   },
-  "author": "Ramvignesh Pasupathy",
+  "author": "karthigaa",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.1",
